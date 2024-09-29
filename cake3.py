@@ -9,4 +9,4 @@ arn = "arn:aws:iam::123456789012:user/Development/product_1234/*"
 account_id = arn.split(':')[4]
 
 
-print(f"The account ID is: {account_id} ")
+print (f"The account ID is: {account_id} ")
