@@ -18,9 +18,9 @@ for index in range(len(laura_things)):
 reversed_things = []
 # Loop through the original list in reverse order and append each item
 for reverse_list in range(len(laura_things)):
-    #reversed_things.append(laura_things [::-1][reverse_list])
+    reversed_things.append(laura_things [::-1][reverse_list])
     
-#print(f" \nThe reversed order from the laura_things list is:\t {reversed_things}\n")
+print(f" \nThe reversed order from the laura_things list is:\t {reversed_things}\n")
 
 # using the slicing method    
 #reverse_things = (laura_things[::-1])
@@ -29,6 +29,7 @@ for reverse_list in range(len(laura_things)):
 print (f" \nThe final output of laura_things list in reversed order is:\n {reversed_things}\n") 
 
 for index in range(len(laura_things)):
+    
     print (f"Item {index +1} in the reversed list is {reversed_things[index]} and is at index: {index}") # trying to replicate what we did in class
     
 # 5- Print a message that says 'The list has been successfully reversed!
